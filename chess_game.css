@@ -1,0 +1,81 @@
+:root {
+    --base03:   #002b36; 
+    --base02:   #073642; 
+    --base01:   #586e75; 
+    --base00:   #657b83; 
+    --base0:    #839496; 
+    --base1:    #93a1a1; 
+    --base2:    #eee8d5; 
+    --base3:    #fdf6e3; 
+    --yellow:   #b58900; 
+    --orange:   #cb4b16; 
+    --red:      #dc322f; 
+    --magenta:  #d33682; 
+    --violet:   #6c71c4; 
+    --blue:     #268bd2; 
+    --cyan:     #2aa198; 
+    --green:    #859900; 
+}
+
+body {
+    background-color: var(--base2);
+}
+
+h1 {
+    text-align: center;
+    color: var(--base1);
+}
+
+#entireBoard {
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    background-color: var(--base03);
+    float:left;
+}
+
+#board {
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    border: 1px solid var(--base1);
+    margin: 80px;
+}
+
+.coord {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    color: var(--base0);
+}
+
+.rght {
+    float: right;
+}
+
+.left {
+    clear: both;
+}
+
+.square {
+    font-size: 50px;
+    text-align: center;
+    width:80px;
+    height: 80px;
+    float: left;
+}
+
+.white {
+    background-color: var(--base3);
+}
+
+.black {
+    background-color: var(--base02);
+}
+
+textarea {
+    float: left;
+    font-size: 28px;
+}
